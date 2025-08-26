@@ -3,136 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aces Lab | テレアポ代行LP</title>
-  <meta name="description" content="営業力 × 大量架電でアポイント獲得を最大化。合同会社Aces Labのテレアポ代行サービス。全国対応、リスト作成やスクリプト設計も可能。">
-  <meta property="og:title" content="Aces Lab | テレアポ代行LP">
-  <meta property="og:description" content="営業力 × 大量架電でアポイント獲得を最大化。">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Aces+Lab">
+  <title>Aces Lab｜成果にこだわるテレアポ代行</title>
   <style>
     body {
+      font-family: "Hiragino Kaku Gothic ProN", Arial, sans-serif;
       margin: 0;
-      font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", Arial, sans-serif;
+      padding: 0;
       line-height: 1.6;
       color: #333;
-      background: #fff;
     }
     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 40px;
-      background: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
+      background: #004aad;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
     }
-    header img {
-      height: 50px;
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
     }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
+    header p {
+      font-size: 1.2rem;
     }
-    nav a:hover {
-      color: #007bff;
-    }
-    .cta-btn {
-      background: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
+    .btn {
       display: inline-block;
-    }
-    .cta-btn:hover {
-      background: #0056b3;
+      background: #ff5722;
+      color: #fff;
+      padding: 12px 24px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
     }
     section {
-      padding: 80px 20px;
+      padding: 50px 20px;
       max-width: 1000px;
       margin: auto;
     }
-    .hero {
-      text-align: center;
-      background: #f5f7fa;
-      padding: 100px 20px;
-    }
-    .hero h1 {
-      font-size: 2.5rem;
+    section h2 {
+      font-size: 1.8rem;
       margin-bottom: 20px;
+      border-left: 5px solid #004aad;
+      padding-left: 10px;
     }
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
-    .grid-3 {
+    .features, .problems, .flow, .reasons {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
-      margin-top: 40px;
     }
     .card {
-      background: #fff;
-      border-radius: 10px;
+      background: #f9f9f9;
+      border-radius: 8px;
       padding: 20px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .steps {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: space-between;
-    }
-    .step {
-      flex: 1 1 180px;
-      background: #f9f9f9;
-      padding: 20px;
-      border-radius: 8px;
-      text-align: center;
-    }
-    .pricing {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      margin-top: 40px;
-    }
-    .price-card {
-      background: #fff;
-      border: 2px solid #007bff;
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-    }
-    .price-card h3 {
-      margin-bottom: 10px;
-      color: #007bff;
-    }
-    .faq-item {
-      margin-bottom: 15px;
-    }
-    .faq-question {
-      cursor: pointer;
-      background: #f1f1f1;
-      padding: 15px;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .faq-answer {
-      display: none;
-      padding: 10px 15px;
-      background: #fff;
-      border-left: 3px solid #007bff;
-    }
     footer {
-      background: #222;
-      color: #fff;
+      background: #333;
+      color: white;
       text-align: center;
       padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -140,125 +74,76 @@
 
   <!-- ヘッダー -->
   <header>
-    <img src="https://via.placeholder.com/150x50?text=Aces+Lab" alt="Aces Lab ロゴ">
-    <nav>
-      <a href="#service">サービス概要</a>
-      <a href="#strength">強み</a>
-      <a href="#flow">流れ</a>
-      <a href="#price">料金</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact" class="cta-btn">無料相談</a>
-    </nav>
+    <h1>Aces Lab｜成果にこだわるテレアポ代行</h1>
+    <p>成約につながるアポイントを、効率よく獲得します</p>
+    <a href="#contact" class="btn">無料相談はこちら</a>
   </header>
 
-  <!-- ファーストビュー -->
-  <section class="hero">
-    <h1>営業力 × 大量架電で、アポイント獲得を最大化</h1>
-    <p>ただの架電数稼ぎではありません。商談につながる質の高いアポイントを大量にお届けします。</p>
-    <a href="#contact" class="cta-btn">今すぐ無料相談</a>
+  <!-- 課題提起 -->
+  <section>
+    <h2>こんなお悩みありませんか？</h2>
+    <div class="problems">
+      <div class="card">営業の人手が足りない</div>
+      <div class="card">アポが取れず売上につながらない</div>
+      <div class="card">社員の離職率が高く定着しない</div>
+    </div>
   </section>
 
-  <!-- サービス概要 -->
-  <section id="service">
-    <h2>サービス概要</h2>
-    <p>合同会社Aces Labのテレアポ代行は、営業経験豊富なプロによる高品質なアポイント獲得を特徴としています。BtoB・BtoC問わず全国対応可能。リスト作成やスクリプト設計もサポートします。</p>
-  </section>
-
-  <!-- 強み -->
-  <section id="strength">
-    <h2>強み</h2>
-    <div class="grid-3">
+  <!-- サービス紹介 -->
+  <section>
+    <h2>サービス内容</h2>
+    <div class="features">
       <div class="card">
-        <h3>大量架電</h3>
-        <p>コールセンター体制で圧倒的な架電数を実現。</p>
+        <h3>リスト精査</h3>
+        <p>ターゲットを絞り込み、成果の出やすいリストを作成。</p>
       </div>
       <div class="card">
-        <h3>営業力</h3>
-        <p>営業コンサル監修による「質の高いアポ」獲得。</p>
+        <h3>トークスクリプト</h3>
+        <p>実績に基づいたトークでアポ率を最大化。</p>
       </div>
       <div class="card">
-        <h3>改善と分析</h3>
-        <p>成果データをもとに継続的に改善し、精度を高めます。</p>
+        <h3>レポート・改善</h3>
+        <p>日々の結果を分析し、改善を繰り返して成果を伸ばします。</p>
       </div>
     </div>
   </section>
 
-  <!-- 流れ -->
-  <section id="flow">
-    <h2>ご利用の流れ</h2>
-    <div class="steps">
-      <div class="step">1. お問い合わせ</div>
-      <div class="step">2. 戦略設計（リスト・スクリプト）</div>
-      <div class="step">3. 架電開始</div>
-      <div class="step">4. アポイント報告</div>
-      <div class="step">5. 改善・フィードバック</div>
+  <!-- 成約までの流れ -->
+  <section>
+    <h2>成約までの流れ</h2>
+    <div class="flow">
+      <div class="card">1. リスト作成・顧客選定</div>
+      <div class="card">2. 架電・初回アプローチ</div>
+      <div class="card">3. ヒアリング・ニーズ確認</div>
+      <div class="card">4. 提案・アポイント設定</div>
+      <div class="card">5. 商談 → 交渉</div>
+      <div class="card">6. 成約・フォロー</div>
     </div>
   </section>
 
-  <!-- 料金 -->
-  <section id="price">
-    <h2>料金プラン</h2>
-    <div class="pricing">
-      <div class="price-card">
-        <h3>成果報酬型</h3>
-        <p>アポ1件ごとに課金</p>
-      </div>
-      <div class="price-card">
-        <h3>コール課金型</h3>
-        <p>架電数に応じた従量課金</p>
-      </div>
-      <div class="price-card">
-        <h3>月額固定型</h3>
-        <p>安定した稼働と成果を重視</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq">
-    <h2>よくある質問</h2>
-    <div class="faq-item">
-      <div class="faq-question">Q. 大量架電は可能ですか？</div>
-      <div class="faq-answer">A. はい、コールセンター体制で数千件単位の架電が可能です。</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-question">Q. 商談につながるアポは取れますか？</div>
-      <div class="faq-answer">A. 営業経験者が対応するため、質の高いアポをご提供します。</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-question">Q. リストがなくても依頼できますか？</div>
-      <div class="faq-answer">A. はい、リスト作成からお手伝い可能です。</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-question">Q. 最低契約件数はありますか？</div>
-      <div class="faq-answer">A. プランによって異なりますのでご相談ください。</div>
+  <!-- 選ばれる理由 -->
+  <section>
+    <h2>選ばれる理由</h2>
+    <div class="reasons">
+      <div class="card">豊富な実績とノウハウ</div>
+      <div class="card">データに基づく改善サイクル</div>
+      <div class="card">成約に直結するアポイント提供</div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section id="contact" style="text-align:center; background:#f5f7fa;">
-    <h2>営業成果を最大化したい企業様へ</h2>
-    <p>お気軽にご相談ください。最適なプランをご提案します。</p>
-    <a href="mailto:aceslab.sakurai@gmail.com" class="cta-btn">無料相談する</a>
+  <section id="contact" style="text-align:center;">
+    <h2>今すぐご相談ください</h2>
+    <p>初回相談は無料です。お気軽にお問い合わせください。</p>
+    <a href="mailto:aceslab.sakurai@gmail.com" class="btn">メールで問い合わせる</a>
   </section>
 
   <!-- フッター -->
   <footer>
-    <p>合同会社 Aces Lab</p>
-    <p>東京都渋谷区恵比寿西二丁目８番４号 EX恵比寿西ビル５階</p>
-    <p>Email: aceslab.sakurai@gmail.com</p>
-    <p>&copy; 2025 Aces Lab All Rights Reserved.</p>
+    <p>合同会社Aces Lab｜東京都渋谷区<br>
+    代表社員：櫻井 豪人</p>
+    <p><a href="#">プライバシーポリシー</a> | <a href="#">特定商取引法に基づく表記</a></p>
   </footer>
-
-  <script>
-    // FAQ開閉
-    document.querySelectorAll('.faq-question').forEach(q => {
-      q.addEventListener('click', () => {
-        const answer = q.nextElementSibling;
-        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
-      });
-    });
-  </script>
 
 </body>
 </html>
